@@ -1,0 +1,25 @@
+{
+	"name": "Atencion al cliente",
+	"isActive": true,
+	"author": "FelipheGomez - Andres Felipe Gomez Maya",
+	"icon": "fa fa-users",
+	"showTitleModule": true,
+	"sections": [
+		{
+			"title": "PQRs",
+			"controller": "AtencionAlcliente",
+			"action": null,
+			"icon": "fa fa-legal",
+			"tree": [
+				{
+					"title": "Crear Peticion",
+					"controller": "AtencionAlcliente",
+					"action": "create_pqrs_peticion",
+					"icon": "fa fa-plus",
+					"tree": [
+					]
+				}
+			]
+		}
+	]
+}

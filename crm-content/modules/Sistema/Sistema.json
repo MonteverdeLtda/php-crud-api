@@ -1,0 +1,169 @@
+{
+	"name": "M. Sistema",
+	"isActive": true,
+	"author": "FelipheGomez - Andres Felipe Gomez Maya",
+	"icon": "fa fa-cogs",
+	"showTitleModule": true,
+	"sections": [
+		{
+			"title": "Debug",
+			"controller": "Sistema",
+			"action": "table_debug",
+			"icon": "fa fa-bug",
+			"tree": [
+			]
+		},
+		{
+			"title": "Admin DB General",
+			"controller": "Sistema",
+			"action": "database_vue",
+			"icon": "fa fa-database",
+			"tree": [
+			]
+		},
+		{
+			"title": "Documentacion",
+			"controller": "Sistema",
+			"action": null,
+			"icon": "fa fa-info",
+			"tree": [
+				{
+					"title": "Documentacion - API",
+					"controller": "Sistema",
+					"action": "api_readme",
+					"icon": "fa fa-cube",
+					"tree": [
+					]
+				},
+				{
+					"title": "Manual de Uso - API",
+					"controller": "Sistema",
+					"action": "api_docs",
+					"icon": "fa fa-cubes",
+					"tree": [
+					]
+				}
+			]
+		},
+		{
+			"title": "Ajustes",
+			"controller": "Sistema",
+			"action": null,
+			"icon": "fa fa-wrench",
+			"tree": [
+				{
+					"title": "Generales",
+					"controller": "Sistema",
+					"action": "settings",
+					"icon": "fa fa-cog",
+					"tree": [
+					]
+				},
+				{
+					"title": "Privacidad",
+					"controller": "Sistema",
+					"action": "privacy",
+					"icon": "fa fa-legal",
+					"tree": [
+					]
+				},
+				{
+					"title": "Anuncios",
+					"controller": "Sistema",
+					"action": "ads",
+					"icon": "fa fa-bullhorn",
+					"tree": [
+					]
+				},
+				{
+					"title": "Header y Footer Scripts",
+					"controller": "Sistema",
+					"action": "header_and_footer_scripts",
+					"icon": "fa fa-code",
+					"tree": [
+					]
+				}
+			]
+		},
+		{
+			"title": "Modulos",
+			"controller": "Sistema",
+			"action": null,
+			"icon": "fa fa-puzzle-piece",
+			"tree": [
+				{
+					"title": "Modulos instalados",
+					"controller": "Sistema",
+					"action": "modules_list",
+					"icon": "fa fa-plug",
+					"tree": [
+					]
+				}
+			]
+		},
+		{
+			"title": "Usuarios",
+			"controller": "Sistema",
+			"action": null,
+			"icon": "fa fa-users",
+			"tree": [
+				{
+					"title": "Todos los usuarios",
+					"controller": "Sistema",
+					"action": "users_list",
+					"icon": "fa fa-sort-alpha-asc",
+					"tree": [
+					]
+				},
+				{
+					"title": "Añadir nuevo",
+					"controller": "Sistema",
+					"action": "users_add",
+					"icon": "fa fa-plus",
+					"tree": [
+					]
+				}
+			]
+		},
+		{
+			"title": "Apariencia",
+			"controller": "Sistema",
+			"action": null,
+			"icon": "fa fa-paint-brush",
+			"tree": [
+				{
+					"title": "Temas",
+					"controller": "Sistema",
+					"action": "theme_list",
+					"icon": "fa fa-magic",
+					"tree": [
+					]
+				}
+			]
+		},
+		{
+			"title": "Galería y Multimedia",
+			"controller": "Sistema",
+			"action": null,
+			"icon": "fa fa-picture-o",
+			"tree": [
+				{
+					"title": "Biblioteca",
+					"controller": "Sistema",
+					"action": "gallery",
+					"icon": "fa fa-folder-open",
+					"tree": [
+					]
+				},
+				{
+					"title": "Añadir nuevo",
+					"controller": "Sistema",
+					"action": "gallery_add",
+					"icon": "fa fa-plus",
+					"tree": [
+					]
+				}
+			]
+		}
+	]
+}

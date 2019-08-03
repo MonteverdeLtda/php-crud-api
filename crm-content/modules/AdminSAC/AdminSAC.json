@@ -1,0 +1,33 @@
+{
+	"name": "Admin SAC",
+	"isActive": true,
+	"author": "FelipheGomez - Andres Felipe Gomez Maya",
+	"icon": "fa fa-cog",
+	"showTitleModule": true,
+	"sections": [
+		{
+			"title": "PQRs",
+			"controller": "AdminSAC",
+			"action": null,
+			"icon": "fa fa-legal",
+			"tree": [
+				{
+					"title": "Tipos de PQRs",
+					"controller": "AdminSAC",
+					"action": "types_pqrs",
+					"icon": "fa fa-plus",
+					"tree": [
+					]
+				},
+				{
+					"title": "Crear PQRs",
+					"controller": "AdminSAC",
+					"action": "create_pqrs",
+					"icon": "fa fa-plus",
+					"tree": [
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Usuarios",
+	"isActive": true,
+	"author": "FelipheGomez - Andres Felipe Gomez Maya",
+	"icon": "fa fa-users",
+	"showTitleModule": false,
+	"sections": [
+		{
+			"title": "Mi Perfil",
+			"controller": "Usuarios",
+			"action": "mi_perfil",
+			"icon": "fa fa-user",
+			"tree": [
+			]
+		}
+	]
+}

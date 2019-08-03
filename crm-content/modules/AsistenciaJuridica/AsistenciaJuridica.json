@@ -1,0 +1,33 @@
+{
+	"name": "Asistencia Juridica",
+	"isActive": true,
+	"author": "FelipheGomez - Andres Felipe Gomez Maya",
+	"icon": "fa fa-users",
+	"showTitleModule": true,
+	"sections": [
+		{
+			"title": "PQRs",
+			"controller": "AsistenciaJuridica",
+			"action": null,
+			"icon": "fa fa-legal",
+			"tree": [
+				{
+					"title": "Peticiones",
+					"controller": "AsistenciaJuridica",
+					"action": "peticiones_pendientes",
+					"icon": "fa fa-",
+					"tree": [
+					]
+				},
+				{
+					"title": "Quejas",
+					"controller": "AsistenciaJuridica",
+					"action": "quejas_pendientes",
+					"icon": "fa fa-",
+					"tree": [
+					]
+				}
+			]
+		}
+	]
+}
